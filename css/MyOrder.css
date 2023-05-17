@@ -1,0 +1,54 @@
+
+  
+  .button {
+    display: inline-block;
+    margin-right: 250px;
+    padding:10px;
+    color: white;
+    background-color: rgb(1, 9, 19);
+    border-radius: 10px;
+    text-decoration: none;
+    width: 7em;
+    font-size:medium;
+  }
+  
+  .button:hover {
+    text-decoration: none;
+    color: chartreuse;
+  }
+  table, th, td {
+    border: 1px solid rgb(2, 1, 17);
+  }
+.head
+{
+  color: white;
+   display: flex;
+    justify-content:space-around;
+     align-items: center; 
+     font-size: 30px;
+     background-color: black;
+      border-radius: 10px;
+      }
+       
+
+       body{
+        font-family: 'Playfair Display', serif;
+    display: grid;
+    background-color: #FFFFFF;
+/*background-image: linear-gradient(43deg, #FFFFFF 0%, #C850C0 46%, #FFCC70 100%);*/
+    align-content: center;
+    min-height: 10vh;
+       }
+
+       @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0.001%;
+}
+
+.container{
+  margin-top: 0px;
+  padding: 0px;
+}
